@@ -1,0 +1,8 @@
+<h1> New List</h1>
+
+<%= simple_form_for @list do |f| %>
+<%= f.input :name, placeholder: "Action" %>
+<%= f.submit class: 'btn btn-primary' %>
+<% end %>
+
+<%= link_to "back", root_path %>
